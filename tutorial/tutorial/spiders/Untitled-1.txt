@@ -1,0 +1,18 @@
+0，1，2，3，4，5，6，7，8，9
+a，b，c，d，e，f，g，h，i，j    起始节点：4
+
+
+目标：func（list)-->one hot
+标签：[0,0,0,1,0,0,0,0,0,0,0]
+预测结果：3
+
+网络情况：
+graph[9][9]
+
+
+def 选路（graph，sourcenode=4，sinknode=1）：
+    model.pridict(sou)--->one hot:res1
+    选路（graph, res1,sinknode)
+
+    
+

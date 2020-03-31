@@ -1,0 +1,8 @@
+__pycache__/
+.vscode/
+.idea/
+*.txt
+*.rar
+WebSpiderbeginner/pdf/*
+WebSpiderbeginner/.vscode/*
+WebSpiderbeginner/斗罗大陆/*
